@@ -15,7 +15,9 @@ class Sahaj {
             "Programming": {
 
                 "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ],
+
                 "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
+
             }
         }
     }
