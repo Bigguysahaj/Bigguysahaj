@@ -1,7 +1,10 @@
 ```ts
 class Sahaj {
 
-    constructor() {  this.age = 22   this.pronouns = ['he', 'him']   this.locality = "New Delhi"  }
+    constructor() {
+        this.age = 22
+        this.locality = "New Delhi"
+    }
 
     get hobbies(): string[] {
         return ["Jazz" , "Reading", "Chess" , "Bouldering" , "Building Cool Stuff"]
