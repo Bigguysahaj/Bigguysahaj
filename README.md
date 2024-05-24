@@ -14,7 +14,6 @@ class Sahaj {
 
     get languages(): { [category: string]: { [level: string]: string[] } } {
         return {
-
             "Spoken": {
                 "Fluent": [ "English", "Hindi", "French" ],
                 "Learning": [ "Finnish", "Vietnamese", "Garhwali", "Dutch" ]
@@ -24,7 +23,6 @@ class Sahaj {
                 "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ],
                 "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
             }
-
         }
     }
 
