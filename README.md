@@ -10,20 +10,16 @@ class Sahaj {
         return ["Jazz" , "Chess" , "Bouldering" , "Building Cool Stuff"]
     }
 
-    get languages () : { [category: string]: { [level: string]: string[] } } {
+    get languages () : { [ level: string ]: string[] } {
         return {
-            "Programming": {
-
-                "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ],
-
-                "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
-
-            }
+            "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ],
+            "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
         }
     }
 
-    get email () : { [method: string]: string[] } {
-        return { "Email": ["sahaj.working@gmail.com"] }
+    get email () : string[] {
+        return ["sahaj.working@gmail.com"]
     }
+
 }
 ```
