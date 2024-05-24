@@ -10,17 +10,10 @@ class Sahaj {
         return ["Jazz" , "Chess" , "Bouldering" , "Building Cool Stuff"]
     }
 
-    get languages () : { [category : string] : { [level : string] : string[] } } {
+    get languages () : { [level : string] : string[] } {
         return {
-            "Spoken": {
-                "Fluent" : ["English", "Hindi", "French"],
-                "Learning" : ["Finnish", "Vietnamese", "Garhwali", "Dutch"]
-            },
-    
-            "Programming" : {
-                "Proficient": ["JavaScript", "TypeScript", "Python", "C++"],
-                "Familiar": ["Java", "Golang", "Rust", "Lua", "Swift", "Flutter"]
-            }
+            "Proficient": ["JavaScript", "TypeScript", "Python", "C++"],
+            "Familiar": ["Java", "Golang", "Rust", "Lua", "Swift", "Flutter"]
         }
     }
 
