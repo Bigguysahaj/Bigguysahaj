@@ -7,9 +7,7 @@ class Sahaj {
     }
 
     get hobbies () : string[] {
-        return [
-            "Jazz" , "Chess" , "Bouldering" , "Building Cool Stuff"
-        ]
+        return ["Jazz" , "Chess" , "Bouldering" , "Building Cool Stuff"]
     }
 
     get languages () : { [level : string] : string[] } {
@@ -20,9 +18,7 @@ class Sahaj {
     }
 
     get email () : string[] {
-        return [
-            "sahaj.working@gmail.com"
-        ]
+        return ["sahaj.working@gmail.com"]
     }
 
 }
