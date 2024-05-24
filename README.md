@@ -9,7 +9,7 @@ class Sahaj {
     }
 
     get hobbies(): string[] {
-        return ["Jazz" , "Reading", "Chess" , "Sports / Bouldering / Hiking" , "Building Cool Stuff"]
+        return ["Jazz" , "Reading", "Chess" , "Bouldering" , "Building Cool Stuff"]
     }
 
     get languages(): { [category: string]: { [level: string]: string[] } } {
