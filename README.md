@@ -1,16 +1,36 @@
-## Hi there 👋
+```ts
+class Sahaj {
 
-<!--
-**Bigguysahaj/Bigguysahaj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    constructor() {
+        this.age = 22
+        this.pronouns = ['he', 'him']
+        this.nationality = "Indian"
+        this.locality = "New Delih"
+    }
 
-Here are some ideas to get you started:
+    get hobbies(): string[] {
+        return ["Jazz" , "Reading", "Chess" , "Sports / Bouldering / Hiking" , "Building Cool Stuff"]
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    get languages(): { [category: string]: { [level: string]: string[] } } {
+        return {
+            "Spoken": {
+                "Fluent": [ "English", "Hindi", "French" ],
+                "Learning": [ "Finnish", "Vietnamese", "Garhwali", "Dutch" ]
+            },
+            "Programming": {
+                "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ],
+                "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
+            }
+        };
+    }
+
+    get contact(): { [method: string]: string[] } {
+        return {
+            "Email": ["sahaj.working@gmail.com"],
+            "LinkedIn": ["https://www.linkedin.com/in/sahaj-singh-3a841b239/"]
+        };
+    }
+}
+
+```
