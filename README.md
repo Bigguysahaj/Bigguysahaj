@@ -16,8 +16,8 @@ class Sahaj {
             "Learning" : ["Finnish", "Vietnamese", "Garhwali", "Dutch"]
         },
         "Programming" : {
-            "Proficient" : ["JavaScript", "TypeScript"],
-            "Familiar" : ["Python", "Java", "C++"]
+            "Proficient": ["JavaScript", "TypeScript", "Python", "C++"],
+            "Familiar": ["Java", "Golang", "Rust", "Lua", "Swift", "Flutter"]
         }
     }
 
