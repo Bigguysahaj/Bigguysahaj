@@ -6,9 +6,7 @@ class Sahaj {
         this.locality = "New Delhi"
     }
 
-    get hobbies(): string[] {
-        return ["Jazz" , "Reading", "Chess" , "Bouldering" , "Building Cool Stuff"]
-    }
+    get hobbies(): string[] { return ["Jazz" , "Reading", "Chess" , "Bouldering" , "Building Cool Stuff"] }
 
     get languages(): { [category: string]: { [level: string]: string[] } } {
         return {
@@ -25,13 +23,7 @@ class Sahaj {
     }
 
     get contact(): { [method: string]: string[] } {
-        return {
-            "Email": ["sahaj.working@gmail.com"],
-            "LinkedIn": ["https://www.linkedin.com/in/sahaj-singh-3a841b239/"]
-        }
-
+        return { "Email": ["sahaj.working@gmail.com"], "LinkedIn": ["https://www.linkedin.com/in/sahaj-singh-3a841b239/"] }
     }
-
 }
-
 ```
