@@ -4,7 +4,6 @@ class Sahaj {
     constructor() {
         this.age = 22
         this.pronouns = ['he', 'him']
-        this.nationality = "Indian"
         this.locality = "New Delhi"
     }
 
@@ -15,13 +14,11 @@ class Sahaj {
     get languages(): { [category: string]: { [level: string]: string[] } } {
         return {
             "Spoken": {
-                "Fluent": [ "English", "Hindi", "French" ],
-                "Learning": [ "Finnish", "Vietnamese", "Garhwali", "Dutch" ]
+                "Fluent": [ "English", "Hindi", "French" ] , "Learning": [ "Finnish", "Vietnamese", "Garhwali", "Dutch" ]
             },
 
             "Programming": {
-                "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ],
-                "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
+                "Proficient": [ "JavaScript", "TypeScript", "Python", "C++" ] , "Familiar": [ "Java", "Golang", "Rust", "Lua" , "Swift", "Flutter" ]
             }
         }
     }
