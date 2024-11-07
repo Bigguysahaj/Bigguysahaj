@@ -1,5 +1,5 @@
 ```ts
-interface Engineer { writesCode: true; hasCoffee: boolean; currentlyBuilding: string[] }
+type Engineer { writesCode: true, hasCoffee: boolean, currentlyBuilding: string[] }
 
 class Sahaj implements Engineer {
 
