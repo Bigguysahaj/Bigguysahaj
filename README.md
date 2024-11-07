@@ -8,9 +8,9 @@ type Engineer = {
 class Sahaj implements Engineer {
 
     private static instance: Sahaj  // singleton pattern becauase ✨unique
+    public readonly location: 'Remote' | 'New Delhi' | 'Anywhere with good WiFi' = "New Delhi" as var
     public readonly age = 23
 
-    public readonly location: 'Remote' | 'New Delhi' | 'Anywhere with good WiFi' = "New Delhi" as const
 
     public readonly hasCoffee: boolean = !isChaiAvailable satisfies boolean
 
