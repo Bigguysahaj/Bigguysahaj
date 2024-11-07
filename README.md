@@ -1,16 +1,23 @@
 ```ts
-class Sahaj {
+type Engineer = {
+    writesCode: true
+    hasCoffee: boolean
+    currentlyBuilding: string[]
+};
 
-    constructor() {
-        this.age = 22
-        this.locality = "New Delhi"
-    }
+class Sahaj implements Engineer {
+    private static instance: Sahaj  // singleton pattern becauase ✨unique
+    public readonly age = 23
+    public readonly location: 'Remote' | 'Coffee Shop' | 'New Delhi' | 'Anywhere with good WiFi' = 
+    "New Delhi" as const
+
+    public readonly hasCoffee: boolean = !isChaiAvailable satisfies boolean
 
     get hobbies () : string[] {
-        return ["Jazz" , "Chess" , "Bouldering" , "Building Cool Stuff"]
+       return ["Jazz 🎷", "Chess ♟️", "Bouldering 🧗‍♂️", "Building Cool Stuff 👨‍💻"]
     }
 
-    get languages () : { [level : string] : string[] } {
+     get languages(): Record<"Proficient" | "Familiar", string[]> {
         return {
             "Proficient": ["JavaScript", "TypeScript", "Python", "C++"],
             "Familiar": ["Java", "Golang", "Rust", "Lua", "Swift", "Flutter"]
