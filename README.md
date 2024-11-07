@@ -11,7 +11,6 @@ class Sahaj implements Engineer {
     public currentlyBuilding = ['Campus', 'Aube', 'Fastest Real Estate Website', 'Cool Game']
 
 
-
     get hobbies () : string[] {
        return ["Jazz 🎷", "Chess ♟️", "Bouldering 🧗‍♂️", "Building Cool Stuff 👨‍💻"]
     }
