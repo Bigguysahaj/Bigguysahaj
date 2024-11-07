@@ -4,7 +4,7 @@ interface Engineer { writesCode: true; hasCoffee: boolean; currentlyBuilding: st
 class Sahaj implements Engineer {
 
     private static instance: Sahaj  // singleton pattern becauase ✨unique
-    public readonly location: 'Remote' | 'New Delhi' | 'Anywhere with good WiFi' = "New Delhi" as var
+    public readonly location: 'Remote' | 'New Delhi' | 'Anywhere with good WiFi' = "New Delhi"
     public readonly age = 23
 
 
