@@ -5,10 +5,12 @@ class Sahaj implements Engineer {
 
     private static instance: Sahaj  // singleton pattern becauase ✨unique
     public readonly location: 'Remote' | 'New Delhi' | 'Anywhere with good WiFi' = "New Delhi"
+    public readonly hasCoffee: boolean = !isChaiAvailable satisfies boolean
+    public currentlyBuilding = ['Campus', 'Aube', 'Fastest Real Estate Website', 'Cool Game']
+    public readonly writesCode = true
     public readonly age = 23
 
 
-    public readonly hasCoffee: boolean = !isChaiAvailable satisfies boolean
 
     get hobbies () : string[] {
        return ["Jazz 🎷", "Chess ♟️", "Bouldering 🧗‍♂️", "Building Cool Stuff 👨‍💻"]
